@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "manaba Answer Form Refiner",
+  "version": "1.0.0",
+  "description": "中央大学のmanabaにて、「小テスト」や「レポート」でのフォームを見やすく整形する拡張機能です。",
+  "content_scripts": [
+    {
+        "matches": ["https://room.chuo-u.ac.jp/ct/*"],
+        "css": ["styles.css"],
+        "run_at": "document_start"
+    }
+  ]
+}

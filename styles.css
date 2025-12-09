@@ -1,0 +1,13 @@
+div.form .report-form{
+    width: 90%;
+}
+.form textarea {
+    width: 100%;
+    font-size: 1.6em;
+    line-height: 2;
+/*     text-decoration: underline solid #00000080 2px; */
+}
+
+.queryinput{
+    width: 100% !important;
+}
