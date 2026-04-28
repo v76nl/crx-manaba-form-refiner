@@ -6,7 +6,7 @@
   "content_scripts": [
     {
         "matches": ["https://room.chuo-u.ac.jp/ct/*"],
-        "css": ["styles.css"],
+        "css": ["style.css"],
         "run_at": "document_start"
     }
   ]
